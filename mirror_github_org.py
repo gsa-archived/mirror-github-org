@@ -59,7 +59,7 @@ def mirror(token, src_org, dst_org, full_run=False):
                 else:
                     raise e
 
-        elif full_run:
+        else:
             print("\n\nSyncing %s..." % src_repo.name, end="")
 
             updated = False
